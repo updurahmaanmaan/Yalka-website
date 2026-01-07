@@ -1,0 +1,79 @@
+.Main-Container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 35px;
+}
+@media (max-width: 750px) {
+  .Main-Container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 1000px) {
+  .Main-Container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+ .background-picture {
+ position: relative;
+ }
+ .Time {
+  padding: 4px 4px;
+  position: absolute;
+  bottom: 15px;
+  right: 5px;
+  color: white;
+  background-color: black;
+  font-family: Roboto, Arial;
+ }
+.Thumbnails {
+  width: 100%;
+ margin-top: 0px;
+ margin-right: 15px;
+ margin-bottom: 8px;
+ 
+}
+.Video-info-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+.Video-title {
+  width: 250px;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-top: 0;
+}
+.Video-author {
+  color: rgb(96, 96, 96);
+  display: block;
+  margin-bottom: 2px;
+  font-size: 12px;
+  margin-top: 10px;
+}
+.Video-des {
+  display: block;
+  margin-top: 2px;
+  color: rgb(96, 96, 96);
+   font-size: 12px;
+}
+
+.Profile-picture { 
+  width: 40px;
+ 
+}
+.Video-info {
+  width: 200px;
+  margin-left: 0px;
+  vertical-align: top;
+}
+.Profile1 {
+  width: 100%;
+  margin-top: 0px;
+  vertical-align: top;
+  border-radius: 50px;
+}
+
+

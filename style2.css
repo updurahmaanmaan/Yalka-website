@@ -1,0 +1,203 @@
+body {
+  margin: 0;
+  height: 2000px;
+  padding-top: 80px;
+  padding-left: 100px;
+}
+.Header {
+  margin-bottom: 20px;
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  border-bottom: 1px solid rgb(249, 249, 249);
+  z-index: 100;
+}
+
+.Section1 {
+  background-color: white;
+  width: 150px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 20px;
+}
+.Section2 {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  flex-shrink: 1;
+  max-width: 470px;
+  align-items: center;
+  margin-left: 75px;
+  max-width: 500px;
+  
+}
+.Search-bar {
+  flex-shrink: 3;
+  width: 300px;
+  height: 34px;
+  padding-left: 10px;
+  font-size: 16px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(192, 192, 192);
+  border-radius: 3px;
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+  
+}
+.Search-bar::placeholder {
+  font-family: Roboto, Arial;
+  font-size: 14px;
+  
+}
+.Section3 {
+  
+  width: 200px;
+   margin-left: 38px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-right: 20px;
+   flex-shrink: 0;
+}
+.Menu-Icon {
+  height: 24px;
+  margin-left: 24px;
+}
+.Youtube-Logo {
+  height: 24px;
+}
+.Search-button {
+  height: 38px;
+  width: 60px;
+  border: 1px solid rgb(192, 192, 192);
+  margin-left: -4px;
+  margin-right: 9px;
+  position: relative;
+  cursor: pointer;
+}
+.Search-button .Tooltip1 {
+  position: absolute;
+  background-color: gray;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 2px;
+  font-size: 12px;
+  bottom: -30px;
+  opacity: 0;
+  transition: opacity 0.15;
+  pointer-events: none;
+
+}
+.Search-button:hover .Tooltip1 {
+  opacity: 1;
+}
+.Voice-button {
+   height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(245, 245, 245);
+  position: relative;
+  cursor: pointer;
+}
+.Voice-button .Tooltip {
+  position: absolute;
+  bottom: -5px;
+  right: -3px;
+  background-color: gray;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 2px;
+  font-size: 12px;
+  bottom: -30px;
+  opacity: 0;
+  transition: opacity 0.15;
+  pointer-events: none;
+  height: 20px;
+  width: 125px;
+  
+}
+.Voice-button:hover .Tooltip {
+  opacity: 1;
+}
+.Search-icon {
+  height: 24px;
+  margin-top: 4px;
+}
+.Voice-icon {
+  height: 24px;
+  margin-top: 4px;
+ 
+}
+.Search-button:hover {
+  background-color: rgb(235, 227, 227);
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+}
+.Upload-icon {
+  height: 24px;
+  cursor: pointer;
+}
+.Youtube-apps-icon {
+  height: 24px;
+    cursor: pointer;
+}
+.Notifications-icon {
+  height: 24px;
+  cursor: pointer;
+}
+.Picture-profile {
+  height: 32px;
+}
+.Notification-div {
+  position: relative;
+}
+.Tooltip-Container {
+  position: relative;
+}
+ .Tooltip-Container div {
+  position: absolute;
+  background-color: gray;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 2px;
+  font-size: 17px;
+  font-family: Arial, Roboto;
+  bottom: -30px;
+  right: -1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  opacity: 0;
+  transition: opacity 0.15;
+  pointer-events: none;
+
+}
+.Tooltip-Container:hover div {
+  opacity: 1;
+}
+.Count {
+  position: relative;
+}
+.Count div {
+  position: absolute;
+  right: -7px;
+  top: -5px;
+  background-color: rgb(204, 0, 0);
+  color: white;
+  font-size: 8;
+  padding: 1.5px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 50px;
+}
